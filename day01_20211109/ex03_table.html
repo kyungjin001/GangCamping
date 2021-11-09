@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>태그연습</title>
+    <style>
+        /* 여러개의 태그를 동시에 선택할 때는 ,로 구분 */
+        table, th, tr, td {
+            /* 두께 선모양 색깔 
+                px(pixel): 픽셀*/
+            border: 1px solid red;
+            /* 선 합치기 */
+            border-collapse: collapse;
+        }
+        td {
+            /* 텍스트 중앙정렬 */
+            text-align: center;
+        }
+        tr:nth-child(even){
+            background-color: royalblue;
+        }
+        tr:nth-child(odd){
+            background-color: yellow;
+        }
+        tr:nth-child(1){
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <!-- table, tr, td, thead, tbody
+        tr: 새로운 행을 추가할때
+        td: 새로운 열을 추가할때
+        th: 열제목 -->
+    <table>
+        <thead>
+        <tr>
+            <th>제목</th>
+            <th>내용</th>
+        </tr>
+    </thead>
+        <tr>
+            <td>가</td>
+            <td>다</td>
+            <td rowspan="2">라</td>
+        </tr>
+        <tr>
+            <td colspan="2">나</td>
+            <td>마</td>
+        </tr>
+        <tr>
+            <td>바</td>
+            <td>사</td>
+            <td>아</td>
+            <td>자</td>
+        </tr>
+    </table>
+</body>
+</html>

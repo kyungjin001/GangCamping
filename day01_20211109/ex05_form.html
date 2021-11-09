@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form 태그</title>
+</head>
+<body>
+    <!-- get과 post의 차이 잘알도록 -->
+    <form action= "test" method="post"> 
+        <!-- temp?aa=안녕 
+            test?bbb=ㅎㅎㅎ 
+            test?bbb=자바&ccc=디비-->
+        <!-- name속성값: 서버로 요청할 때 데이터를 담는 파라미터(변수) 이름 -->
+        입력1: <input type="text" name="bbb" placeholder="검색어입력"> <br>
+        입력2: <input type="text" name="ccc"> <br>
+        입력3: <input type="text" name="ddd"> <br>
+        <input type="submit" value="전송">
+    </form>
+    
+</body>
+</html>
