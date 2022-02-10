@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="021bdcd7-e9e7-47c3-8f26-b24006674713" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../BoardEX/src/main/java/com/icia/ex/Entity/BoardEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoardEX/src/main/java/com/icia/ex/controller/BoardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoardEX/src/main/java/com/icia/ex/dto/BoardDetailDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoardEX/src/main/java/com/icia/ex/dto/BoardSaveDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoardEX/src/main/java/com/icia/ex/repository/BoardRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoardEX/src/main/java/com/icia/ex/service/BoardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoardEX/src/main/java/com/icia/ex/service/BoardServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoardEX/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoardEX/src/main/resources/templates/board/findAll.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoardEX/src/main/resources/templates/board/findById.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoardEX/src/main/resources/templates/board/save.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoardEX/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoardEX/src/test/java/com/icia/ex/BoardTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoardProject/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoardProject/src/main/java/com/icia/board/common/PagingConst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoardProject/src/main/java/com/icia/board/controller/BoardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoardProject/src/main/java/com/icia/board/controller/CommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoardProject/src/main/java/com/icia/board/controller/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoardProject/src/main/java/com/icia/board/dto/BoardDetailDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoardProject/src/main/java/com/icia/board/dto/BoardPagingDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoardProject/src/main/java/com/icia/board/dto/BoardSaveDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoardProject/src/main/java/com/icia/board/dto/BoardUpdateDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoardProject/src/main/java/com/icia/board/dto/CommentDetailDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoardProject/src/main/java/com/icia/board/dto/CommentSaveDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoardProject/src/main/java/com/icia/board/dto/MemberDetailDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoardProject/src/main/java/com/icia/board/dto/MemberLoginDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoardProject/src/main/java/com/icia/board/dto/MemberMapperDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoardProject/src/main/java/com/icia/board/dto/MemberSaveDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoardProject/src/main/java/com/icia/board/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoardProject/src/main/java/com/icia/board/entity/BoardEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoardProject/src/main/java/com/icia/board/entity/CommentEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoardProject/src/main/java/com/icia/board/entity/MemberEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoardProject/src/main/java/com/icia/board/repository/BoardRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoardProject/src/main/java/com/icia/board/repository/CommentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoardProject/src/main/java/com/icia/board/repository/MemberMapperRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoardProject/src/main/java/com/icia/board/repository/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoardProject/src/main/java/com/icia/board/service/BoardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoardProject/src/main/java/com/icia/board/service/BoardServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoardProject/src/main/java/com/icia/board/service/CommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoardProject/src/main/java/com/icia/board/service/CommentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoardProject/src/main/java/com/icia/board/service/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoardProject/src/main/java/com/icia/board/service/MemberServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoardProject/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoardProject/src/main/resources/templates/board/findAll.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoardProject/src/main/resources/templates/board/findById.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoardProject/src/main/resources/templates/board/paging.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoardProject/src/main/resources/templates/board/save.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoardProject/src/main/resources/templates/board/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoardProject/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoardProject/src/test/java/com/icia/board/BoardTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoardProject/src/test/java/com/icia/board/CommentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoardProject/src/test/java/com/icia/board/MemberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BoardProject/src/test/java/com/icia/board/MemberTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/icia/gangcamping/GangCampingApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/icia/gangcamping/controller/Maincontroller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/fonts/beyond_the_mountains.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/fonts/beyond_the_mountains.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/about_background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/add.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/backpack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/bicycle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/blog_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/blog_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/blog_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/blog_background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/bus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/compass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/contact.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/contact_background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/cruise.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/cta.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/departure.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/diving.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/dropdown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/elements_background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/footer_blog_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/footer_blog_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/footer_blog_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/gallery_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/gallery_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/gallery_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/gallery_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/gallery_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/gallery_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/ganglogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/home_slider.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/icon_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/icon_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/icon_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/intro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/intro_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/intro_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/intro_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/island.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/island_t.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/kayak.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/latest_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/latest_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/latest_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/latest_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/listing_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/listing_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/listing_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/listing_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/listing_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/listing_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/listing_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/listing_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/listing_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/listing_gallery_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/listing_hotel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/listing_thumb_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/listing_thumb_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/listing_thumb_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/listing_thumb_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/listing_thumb_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/listing_thumb_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/listing_thumb_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/listing_thumb_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/listing_thumb_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/man.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/message.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/milestone_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/milestone_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/milestone_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/milestone_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/nav_next.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/nav_prev.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/nav_rect.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/offer_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/offer_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/offer_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/offer_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/offer_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/offer_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/offer_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/offer_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/phone-call.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/placeholder.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/planet-earth.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/post.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/prev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/review_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/review_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/room_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/room_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/sailboat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/single_background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/stats_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/stats_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/stats_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/stats_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/suitcase.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/test_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/test_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/test_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/trend_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/trend_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/trend_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/trend_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/trend_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/trend_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/trend_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/trend_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/about_custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/blog_custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/contact_custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/elements_custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery.nice-select.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery.slicknav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/mixitup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/offers_custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/single_listing_custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/Isotope/isotope.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/OwlCarousel2-2.2.1/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/OwlCarousel2-2.2.1/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/OwlCarousel2-2.2.1/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/OwlCarousel2-2.2.1/owl.carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/OwlCarousel2-2.2.1/owl.theme.default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/OwlCarousel2-2.2.1/owl.video.play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/colorbox/colorbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/colorbox/images/border.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/colorbox/images/controls.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/colorbox/images/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/colorbox/images/loading_background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/colorbox/images/overlay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/colorbox/jquery.colorbox-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/easing/easing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/font-awesome-4.7.0/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/font-awesome-4.7.0/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/font-awesome-4.7.0/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/font-awesome-4.7.0/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/font-awesome-4.7.0/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/font-awesome-4.7.0/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/font-awesome-4.7.0/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/greensock/ScrollToPlugin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/greensock/TimelineMax.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/greensock/TweenMax.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/greensock/animation.gsap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/jquery-circle-progress-1.2.2/circle-progress.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/parallax-js-master/parallax.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/progressbar/progressbar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/plugins/scrollmagic/ScrollMagic.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/styles/about_responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/styles/about_styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/styles/blog_responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/styles/blog_styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/styles/bootstrap4/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/styles/bootstrap4/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/styles/bootstrap4/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/styles/contact_responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/styles/contact_styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/styles/elements_responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/styles/elements_styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/styles/main_styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/styles/offers_responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/styles/offers_styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/styles/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/styles/single_listing_responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/styles/single_listing_styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/elements.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/offers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/shopdetail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/single_listing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MemberBoard/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MemberBoard/src/main/java/com/icia/project/common/PagingConst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MemberBoard/src/main/java/com/icia/project/common/SessionConst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MemberBoard/src/main/java/com/icia/project/controller/BoardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MemberBoard/src/main/java/com/icia/project/controller/CommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MemberBoard/src/main/java/com/icia/project/controller/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MemberBoard/src/main/java/com/icia/project/controller/MemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MemberBoard/src/main/java/com/icia/project/dto/BoardDetailDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MemberBoard/src/main/java/com/icia/project/dto/BoardPagingDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MemberBoard/src/main/java/com/icia/project/dto/BoardSaveDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MemberBoard/src/main/java/com/icia/project/dto/BoardSearchDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MemberBoard/src/main/java/com/icia/project/dto/BoardUpdateDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MemberBoard/src/main/java/com/icia/project/dto/CommentDetailDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MemberBoard/src/main/java/com/icia/project/dto/CommentSaveDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MemberBoard/src/main/java/com/icia/project/dto/MemberDetailDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MemberBoard/src/main/java/com/icia/project/dto/MemberLoginDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MemberBoard/src/main/java/com/icia/project/dto/MemberSaveDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MemberBoard/src/main/java/com/icia/project/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MemberBoard/src/main/java/com/icia/project/entity/BoardEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MemberBoard/src/main/java/com/icia/project/entity/CommentEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MemberBoard/src/main/java/com/icia/project/entity/MemberEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MemberBoard/src/main/java/com/icia/project/interceptor/LoginCheckInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MemberBoard/src/main/java/com/icia/project/interceptor/webConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MemberBoard/src/main/java/com/icia/project/repository/BoardRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MemberBoard/src/main/java/com/icia/project/repository/CommentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MemberBoard/src/main/java/com/icia/project/repository/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MemberBoard/src/main/java/com/icia/project/service/BoardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MemberBoard/src/main/java/com/icia/project/service/BoardServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MemberBoard/src/main/java/com/icia/project/service/CommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MemberBoard/src/main/java/com/icia/project/service/CommentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MemberBoard/src/main/java/com/icia/project/service/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MemberBoard/src/main/java/com/icia/project/service/MemberServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MemberBoard/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MemberBoard/src/main/resources/templates/board/findAll.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MemberBoard/src/main/resources/templates/board/findById.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MemberBoard/src/main/resources/templates/board/paging.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MemberBoard/src/main/resources/templates/board/save.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MemberBoard/src/main/resources/templates/board/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MemberBoard/src/main/resources/templates/board/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MemberBoard/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MemberBoard/src/main/resources/templates/member/findAll.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MemberBoard/src/main/resources/templates/member/findById.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MemberBoard/src/main/resources/templates/member/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MemberBoard/src/main/resources/templates/member/myPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MemberBoard/src/main/resources/templates/member/save.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MemberBoard/src/main/resources/templates/member/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MemberProject_20220107/src/main/java/com/icia/member/dto/MemberMapperDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MemberProject_20220107/src/main/java/com/icia/member/interceptor/LoginCheckInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MemberProject_20220107/src/main/java/com/icia/member/interceptor/webConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MemberProject_20220107/src/main/java/com/icia/member/repository/MemberMapperRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MemberProject_20220107/src/main/resources/mapper/memberMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MemberProject_20220107/src/main/resources/templates/member/mypage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MemberProject_20220107/src/main/resources/templates/member/update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemberProject/src/main/java/com/icia/member/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MemberProject/src/main/java/com/icia/member/controller/MemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemberProject_20220107/src/main/java/com/icia/member/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MemberProject_20220107/src/main/java/com/icia/member/controller/MemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemberProject_20220107/src/main/java/com/icia/member/dto/MemberLoginDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MemberProject_20220107/src/main/java/com/icia/member/dto/MemberLoginDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemberProject_20220107/src/main/java/com/icia/member/entity/MemberEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MemberProject_20220107/src/main/java/com/icia/member/entity/MemberEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemberProject_20220107/src/main/java/com/icia/member/repository/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MemberProject_20220107/src/main/java/com/icia/member/repository/MemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemberProject_20220107/src/main/java/com/icia/member/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MemberProject_20220107/src/main/java/com/icia/member/service/MemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemberProject_20220107/src/main/java/com/icia/member/service/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MemberProject_20220107/src/main/java/com/icia/member/service/MemberServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemberProject_20220107/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../MemberProject_20220107/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemberProject_20220107/src/main/resources/templates/member/findAll.html" beforeDir="false" afterPath="$PROJECT_DIR$/../MemberProject_20220107/src/main/resources/templates/member/findAll.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MemberProject_20220107/src/test/java/com/icia/member/MemberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MemberProject_20220107/src/test/java/com/icia/member/MemberTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="24JV7bHZyRgfljLNh7qXIvXBnF9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\development\source\springboot\GangCamping\src\main\resources\templates" />
+      <recent name="C:\development\source\springboot\GangCamping\src\main\resources\static" />
+      <recent name="C:\development\source\springboot\GangCamping\src\main\resources" />
+      <recent name="C:\development\source\springboot\GangCamping\src\main\java\com\icia\gangcamping" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\development\source\springboot\GangCamping\src\main\resources\static\images" />
+      <recent name="C:\development\source\springboot\GangCamping\src\main\resources\static" />
+      <recent name="C:\development\source\springboot\GangCamping\src\main\resources\static\js" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.icia.gangcamping" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="GangCampingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="GangCamping.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.icia.gangcamping.GangCampingApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="021bdcd7-e9e7-47c3-8f26-b24006674713" name="Changes" comment="" />
+      <created>1643348511611</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643348511611</updated>
+      <workItem from="1643348512815" duration="1938000" />
+      <workItem from="1643350476844" duration="4599000" />
+      <workItem from="1643861936559" duration="7797000" />
+      <workItem from="1643936704788" duration="2164000" />
+      <workItem from="1644209065281" duration="3514000" />
+      <workItem from="1644284791147" duration="780000" />
+      <workItem from="1644296722006" duration="1291000" />
+      <workItem from="1644305274227" duration="1249000" />
+      <workItem from="1644449192628" duration="1742000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
